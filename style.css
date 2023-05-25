@@ -7,7 +7,8 @@
 body{
     background-color: #284282;
     min-height: 100vh;
-    widht:100% ;
+    width:100% ;
+    font-family:sans-serif,Arial;
 
     background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url("images/congress_pxl-600x399.jpg");
     background-position: center;
@@ -44,7 +45,6 @@ nav a {
 nav a:hover{
     color: #284282;
 
-}
 button{
     margin-left: 20px;
     padding: 9px 25px;
@@ -109,4 +109,18 @@ button:hover{
 }
 .layer:hover{
     background: rgba(40,66,133,0.7);
+}
+.about_box{
+width: 100%;
+}
+.title h1 {
+    color: #D6F0EE;
+    font-size: 46px;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 40px 0px;
+}
+
+
 }
